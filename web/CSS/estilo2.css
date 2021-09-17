@@ -1,0 +1,33 @@
+.padre{
+             background-color: #333;
+            text-align: center;
+        }
+        #menu{
+          list-style: none;
+          display: inline-block;
+          list-style: none;
+          
+        }
+        #menu li>a{
+          background-color: crimson;
+          color: white;
+          padding: 10px;
+          display: block;
+          text-decoration: none;
+          min-width: 100px;
+        }
+        #menu li>a:hover{
+          color: #000;
+          background-color: #ddd;
+        }
+        #menu>li{
+          float: right;
+          text-align:center
+        }
+        #menu>li>ul{
+          display: none;
+        }
+        #menu>li:hover>ul {
+          display: inline;
+        }
+
